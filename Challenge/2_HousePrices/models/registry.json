@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "id": "model_001",
+      "name": "linear_regression_v1",
+      "path": "models/trained/linear_regression_v1.pkl",
+      "date": "2025-10-13T10:00:00",
+      "trained_by": "quy",
+      "config_file": "configs/linear.yaml",
+      "metrics": {
+        "rmse": 0.138,
+        "r2": 0.87
+      },
+      "notes": "Baseline model - used simple preprocessing."
+    },
+    {
+      "id": "model_002",
+      "name": "random_forest_v3",
+      "path": "models/trained/random_forest_v3.pkl",
+      "date": "2025-10-13T12:30:00",
+      "trained_by": "...",
+      "config_file": "configs/random_forest.yaml",
+      "metrics": {
+        "rmse": 0.122,
+        "r2": 0.91
+      },
+      "notes": "Used tuned hyperparams, improved features."
+    },
+    {
+      "id": "model_003",
+      "name": "xgboost_final",
+      "path": "models/trained/xgboost_final.pkl",
+      "date": "2025-10-13T15:00:00",
+      "trained_by": "duy",
+      "config_file": "configs/xgb_final.yaml",
+      "metrics": {
+        "rmse": 0.118,
+        "r2": 0.93
+      },
+      "notes": "Best model, submitted to Kaggle."
+    }
+  ],
+  "best_model": "model_003"
+}

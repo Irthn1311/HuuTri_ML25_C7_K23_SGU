@@ -1,0 +1,37 @@
+# # config.yaml
+
+# project:
+#   name: house-prices
+#   random_seed: 42
+
+# data:
+#   raw_path: data/raw/train.csv
+#   test_path: data/raw/test.csv
+#   processed_path: data/processed/
+
+# preprocessing:
+#   handle_missing: true
+#   imputation_strategy: median
+#   scale: true
+#   encoding: onehot
+
+# features:
+#   polynomial_features: false
+#   selected_features:
+#     - GrLivArea
+#     - OverallQual
+#     - TotalBsmtSF
+#     - GarageCars
+
+# model:
+#   name: random_forest
+#   params:
+#     n_estimators: 200
+#     max_depth: 10
+#     min_samples_split: 3
+#     random_state: 42
+
+# training:
+#   test_size: 0.2
+#   cross_validation_folds: 5
+#   scoring: rmse

@@ -1,0 +1,36 @@
+experiment_name: "house_price_lightgbm_v1"
+task: "regression"
+target_col: "SalePrice"
+
+# === Đường dẫn dữ liệu ===
+data:
+  train: "data/raw/train.csv"
+  test: "data/raw/test.csv"
+  submission: "reports/experiments/house_price_lightgbm_v1/submission_quy.csv"
+
+# === Tiền xử lý ===
+clean:
+  remove_dup: true
+  handle_na: true
+  balance: false
+  balance_method: null
+
+preprocess:
+  method: "standardize"
+
+feature:
+  method: "rfe"
+  params:
+    k: 10
+  custom_func: "GrLivArea + GarageArea"
+  custom_name: "TotalArea"
+
+# === Mô hình ===
+model:
+  model_name: "LGB_HousePrice"
+  params:
+    n_estimators: 500
+    learning_rate: 0.05
+  random_state: 42
+  test_size: 0.2
+
