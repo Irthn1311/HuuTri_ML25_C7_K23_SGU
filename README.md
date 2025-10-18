@@ -2,7 +2,7 @@
 
 ## 📚 Tổng quan Repository
 
-Repository này chứa toàn bộ quá trình học tập và thực hành Machine Learning của **Nguyễn Hữu Trí** (MSSV: 3123410387) trong khóa học **ML25_C7_K23** tại **SGU (Sài Gòn University)**. Đây là một bộ sưu tập đầy đủ các bài tập, dự án thực hành, và cuộc thi Machine Learning từ cơ bản đến nâng cao.
+Repository này chứa toàn bộ quá trình học tập và thực hành Machine Learning của **Nguyễn Hữu Tri** (MSSV: 3123410387) trong khóa học **Machine Leaning** tại **SGU (Sài Gòn University)**. Đây là một bộ sưu tập đầy đủ các bài tập, dự án thực hành, và cuộc thi Machine Learning từ cơ bản đến nâng cao.
 
 ---
 
@@ -342,3 +342,4 @@ Repository này được tạo cho mục đích học tập và nghiên cứu. V
 
 
 *Repository này được cập nhật liên tục trong quá trình học tập. Các dự án mới sẽ được thêm vào khi hoàn thành.*
+
